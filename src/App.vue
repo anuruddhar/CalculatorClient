@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Calculator"/>
+  <get-request/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import GetRequest from "./components/GetRequest";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    GetRequest
   }
 }
 </script>
